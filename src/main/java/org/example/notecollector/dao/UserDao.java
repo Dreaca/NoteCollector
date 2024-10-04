@@ -3,6 +3,7 @@ package org.example.notecollector.dao;
 import org.example.notecollector.entity.impl.UserEntity;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository

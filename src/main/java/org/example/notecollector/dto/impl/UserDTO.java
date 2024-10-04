@@ -3,12 +3,13 @@ package org.example.notecollector.dto.impl;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.example.notecollector.dto.UserStatus;
 
 import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDTO {
+public class UserDTO implements UserStatus {
     private String userId;
     private String userFirstName;
     private String userLastName;
